@@ -50,7 +50,7 @@ By @heartbrokenperson1
     ABOUT = """
 **About This Bot** 
 
-Telegram Bot to generate Pyrogram and Telethon string session by @StarkBots
+Telegram Bot to generate Pyrogram and Telethon string session by @heartbrokenperson1
 
 Source Code : [THE MASTI CLUBS](https://t.me/full_masti_clubs)
 
