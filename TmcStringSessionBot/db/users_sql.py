@@ -1,5 +1,5 @@
 from sqlalchemy import Column, BigInteger
-from TmcStringSessionBot.database import BASE, SESSION
+from StringGenBot.db import BASE, SESSION
 
 
 class Users(BASE):
@@ -22,4 +22,4 @@ async def num_users():
     try:
         return SESSION.query(Users).count()
     finally:
-        SESSION.close() 
+        SESSION.close()
