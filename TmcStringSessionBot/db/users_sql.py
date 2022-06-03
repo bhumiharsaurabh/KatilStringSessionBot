@@ -1,5 +1,5 @@
 from sqlalchemy import Column, BigInteger
-from StringGenBot.db import BASE, SESSION
+from TmcStringSessionBot.db import BASE, SESSION
 
 
 class Users(BASE):
