@@ -1,83 +1,50 @@
-# KatilStringSessionBot
-Pyrogram and Telethon String Session Generator  
+<p align="center">
+  <img src="https://telegra.ph/file/7ec22c82f580a334dd13e.jpg" alt="TmcStringGenBot">
+</p>
+
+### 🥵 sᴛʀɪɴɢ ɢᴇɴᴇʀᴀᴛᴏʀ ʙᴏᴛ
+  <a href="https://github.com/bhumiharsaurabh"><img alt="Website" src="https://img.shields.io/badge/KATIL-blue"></a>
+ 
+[![Stars](https://img.shields.io/github/stars/bhumiharsaurabh/KatilStringSessionBot?style=social)](https://github.com/bhumiharsaurabh/KatilStringSessionBot/stargazers)
+  [![Forks](https://img.shields.io/github/forks/bhumiharsaurabh/KatilStringSessionBot?style=social)](https://github.com/bhumiharsaurabh/KatilStringSessionBot/fork)
+
+### 🛠️ ʟᴀɴɢᴜᴀɢᴇs ᴀɴᴅ ᴛᴏᴏʟs
+
+  ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+  ![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)
+  ![Heroku](https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white)
+
+----
+ 
+### 🤤 ғᴇᴀᴛᴜʀᴇs
+
+- [»] sᴜᴩᴩᴏʀᴛs ᴩʏʀᴏɢʀᴀᴍ ᴠ2 🔥
+- [»] sᴀғᴇsᴛ ʙᴏᴛ ᴇᴠᴇʀ 🔥
+- [»] sᴜᴩᴩᴏʀᴛs ᴩʏʀᴏɢʀᴀᴍ ᴀɴᴅ ᴛᴇʟᴇᴛʜᴏɴ 🔥
+- [»] sᴜᴩᴩᴏʀᴛs sᴇssɪᴏɴ ɢᴇɴ ғᴏʀ ʙᴏᴛғᴀᴛʜᴇʀ ʙᴏᴛs
+
+### 🚀 ᴅᴇᴘʟᴏʏ ᴛᴏ ʜᴇʀᴏᴋᴜ
+  
+  <p align="center"><a href="https://heroku.com/deploy?template=https://github.com/bhumiharsaurabh/KatilStringSessionBot"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-black?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
 
 
-# Pyrogram and Telethon String Session Bot [TmcStringGenBot](https://t.me/TmcStringGenBot)
 
-> A star ⭐ from you means a lot to us!
+### 🙄 ᴅᴇᴍᴏ/ᴛᴇsᴛ ʙᴏᴛ
+  
+  [sᴛʀɪɴɢ ʙᴏᴛ 🍑](https://telegram.me/TmcStringGenBot)
 
-<p align="center"><a href="https://www.github.com/bhumiharsaurabh/KatilStringSessionBot"><img src="https://telegra.ph/file/7ec22c82f580a334dd13e.jpg" width="2000"></a></p>
+```
+Atleast Give A Star and Fork The Repo 🖤
+```
 
-Telegram bot to generate pyrogram and telethon string session.
+## 🗒️ ɴᴇᴄᴇssᴀʀʏ ᴠᴀʀs
 
-[![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
+☞ `API_ID` - Get your API_ID from [my.telegram.org](https://my.telegram.org/apps)<br>
+☞ `API_HASH` - Get your API_HASH from [my.telegram.org](https://my.telegram.org/apps)<br>
+☞ `BOT_TOKEN` - Bot Token of your spam bots.<br>
 
-## Usage
 
-### Deploy to Heroku
-
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/bhumiharsaurabh/KatilStringSessionBot)
-
-1. Tap on above button and fill `API_ID`, `API_HASH`, `BOT_TOKEN` (and `MUST_JOIN`).
-2. Then tap "Deploy App" below it. Wait till deploying is complete (will take atmost 2 minutes).
-3. After deploying is complete, tap on "Manage App"
-4. Check the logs to see if your bot is ready!
-
-### Local Deploying
-
-1. Clone the repo
-   ```markdown
-   git clone https://github.com/bhumiharsaurabh/KatilStringSessionBot
-   ```
-2. Get a DATABASE_URL. If you don't know how, deploy using Heroku Button only or delete database things as it's not a compulsion.
-   
-3. Rename `.env.sample` to `.env` and fill the needed variables
-
-4. Enter the directory
-   ```markdown
-   cd TmcStringSessionBot
-   ```
-5. Run the file
-   ```markdown
-   python3 generator.py
-   ```
-
-## Environment Variables
-
-#### Mandatory Vars
-
-- `API_ID` - Get this from [my.telegram.org](https://my.telegram.org/auth)
-- `API_HASH` - Get this from [my.telegram.org](https://my.telegram.org/auth)
-- `BOT_TOKEN` - Get this from [@BotFather](https://t.me/BotFather)
-- `DATABASE_URL` - Will be automatically added by Heroku.
-- `MUST_JOIN` - Username/ID of your telegram channel/group.
-
-## Functions
-
-> More features soon if suggested by you :)
-
-## To-Do
-
-> That's on you mainly...
-
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
-
-## Credits
-
-- [Dan Tès](https://github.com/delivrance) for his [Pyrogram](https://docs.pyrogram.org) Library
-- [Lonami](https://github.com/Lonami) for his [Telethon](https://docs.telethon.dev) Library 
-- [KATIL](https://t.me/TERA_BAAP_KATIL) for **Telethon** idea of [v1.0.0](https://github.com/bhumiharsaurabh/KatilStringSessionBot/commit/48e06bb6d9ed156797ef4bc0dab88820fef948f3)
-
-## Support
-
-Channel :- [TMC](https://t.me/HEARTBROKENPERSON1)
-
-Group Chat :- [THE MASTI CLUBS](https://t.me/FULL_MASTI_CLUBS)
-
-## :)
-
-[![ForTheBadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
-
-[![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://github.com/bhumiharsaurabh)
-
-[![ForTheBadge makes-people-smile](http://ForTheBadge.com/images/badges/makes-people-smile.svg)](https://github.com/bhumiharsaurabh)
+## 💖 ᴄʀᴇᴅɪᴛs
+- » [KATIL](https://github.com/bhumiharsaurabh)
+- » [Pyrogram Devs](https://github.com/pyrogram) for [Pyrogram](https://github.com/pyrogram/pyrogram)
+- » [LonamiWebs](https://github.com/LonamiWebs) for [Telethon](https://github.com/LonamiWebs/Telethon)
