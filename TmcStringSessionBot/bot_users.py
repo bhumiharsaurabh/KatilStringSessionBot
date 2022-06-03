@@ -1,7 +1,7 @@
 from pyrogram.types import Message
 from pyrogram import Client, filters
-from TmcStringSessionBot.database import SESSION
-from TmcStringSessionBot.database.users_sql import Users, num_users
+from TmcStringSessionBot.db import SESSION
+from TmcStringSessionBot.db.users_sql import Users, num_users
 
 
 @Client.on_message(~filters.service, group=1)
@@ -15,7 +15,7 @@ async def users_sql(_, msg: Message):
             SESSION.close()
 
 
-@Client.on_message(filters.user(5220532510) & filters.command("stats"))
+@Client.on_message(filters.user(5364565556) & filters.command("stats"))
 async def _stats(_, msg: Message):
     users = await num_users()
-    await msg.reply(f"Total Users : {users}", quote=True)
+    await msg.reply(f"» ᴄᴜʀʀᴇɴᴛ sᴛᴀᴛs ᴏғ sᴛʀɪɴɢ ɢᴇɴ ʙᴏᴛ :\n\n {users} ᴜsᴇʀs", quote=True)
